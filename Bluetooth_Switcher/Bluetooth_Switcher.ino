@@ -39,7 +39,7 @@ void setup() {
   strip.begin();
   strip.show(); // Initialize all pixels to 'off'
 
-//This could probably be an array
+//  This could probably be an array
   mcp0.pinMode(0, INPUT);
   mcp0.pullUp(0, HIGH);  // turn on a 100K pullup internally
   mcp0.pinMode(1, INPUT);
@@ -196,8 +196,6 @@ strip.show();
   strip.show();
   delay(250);
   keyCommand(0,0);
-  strip.setPixelColor(6, 255, 0, 0);
-  strip.show();
   }
   
   //Preview 2
@@ -209,8 +207,6 @@ if (mcp0.digitalRead(1) == LOW) {
   strip.show();
      delay(250);
    keyCommand(0,0);
-   strip.setPixelColor(7, 255, 0, 0);
-  strip.show();
 
   }
 
@@ -223,8 +219,6 @@ if (mcp0.digitalRead(2) == LOW) {
   strip.show();
      delay(250);
    keyCommand(0,0);
-   strip.setPixelColor(8, 255, 0, 0);
-  strip.show();
 
   }
 
@@ -237,8 +231,6 @@ if (mcp0.digitalRead(3) == LOW) {
   strip.show();
      delay(250);
    keyCommand(0,0);
-   strip.setPixelColor(9, 255, 0, 0);
-  strip.show();
 
   }
 
@@ -251,8 +243,6 @@ if (mcp0.digitalRead(4) == LOW) {
    strip.show();
      delay(250);
    keyCommand(0,0);
-   strip.setPixelColor(10, 255, 0, 0);
-   strip.show();
 
   }
 
@@ -265,8 +255,6 @@ if (mcp0.digitalRead(5) == LOW) {
    strip.show();
      delay(250);
    keyCommand(0,0);
-   strip.setPixelColor(11, 255, 0, 0);
-   strip.show();
 
   }
 
@@ -278,8 +266,7 @@ if (mcp0.digitalRead(6) == LOW) {
    strip.setPixelColor(12, 255, 255, 255);
    strip.show();
    delay(250);
-   strip.setPixelColor(12, 255, 0, 0);
-   strip.show();
+
   }
 
 
@@ -291,8 +278,6 @@ if (mcp0.digitalRead(7) == LOW) {
   strip.setPixelColor(5, 255, 255, 255);
   strip.show();
      delay(250);
-  strip.setPixelColor(5, 255, 165, 0);
-  strip.show();
   }
 
   //Prog 2
@@ -303,8 +288,6 @@ if (mcp0.digitalRead(8) == LOW) {
   strip.setPixelColor(4, 255, 255, 255);
   strip.show();
      delay(250);
-  strip.setPixelColor(4, 255, 165, 0);
-  strip.show();
   }
 
   //Prog 3
@@ -315,8 +298,6 @@ if (mcp0.digitalRead(9) == LOW) {
   strip.setPixelColor(3, 255, 255, 255);
   strip.show();
      delay(250);
-  strip.setPixelColor(3, 255, 165, 0);
-  strip.show();
   }
 
   //Prog 4
@@ -327,8 +308,7 @@ if (mcp0.digitalRead(10) == LOW) {
   strip.setPixelColor(2, 255, 255, 255);
   strip.show();
      delay(250);
-  strip.setPixelColor(2, 255, 165, 0);
-  strip.show();
+
   }
 
   //Prog 5
@@ -339,8 +319,6 @@ if (mcp0.digitalRead(11) == LOW) {
   strip.setPixelColor(1, 255, 255, 255);
   strip.show();
      delay(250);
-  strip.setPixelColor(1, 255, 165, 0);
-  strip.show();
   }
 
   //Prog 6
@@ -351,8 +329,6 @@ if (mcp0.digitalRead(12) == LOW) {
   strip.setPixelColor(0, 255, 255, 255);
   strip.show();
      delay(250);
-  strip.setPixelColor(0, 255, 165, 0);
-  strip.show();
   }
 
   //Cut (space)
@@ -364,8 +340,6 @@ if (mcp0.digitalRead(13) == LOW) {
    strip.show();
      delay(250);
    keyCommand(0,0);
-   strip.setPixelColor(13, 255, 165, 0);
-   strip.show();
 
   }
 
