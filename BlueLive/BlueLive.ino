@@ -258,14 +258,15 @@ if (mcp0.digitalRead(5) == LOW) {
 
   }
 
-  //Auto Transition (return)
+  //Auto Transition (Space)
 
 if (mcp0.digitalRead(6) == LOW) {
     Serial.println("Success Auto Transition!");
-   BT.write(0x0A);
+   keyCommand(0,44);
    strip.setPixelColor(12, 255, 255, 255);
    strip.show();
    delay(250);
+   keyCommand(0,0);
 
   }
 
@@ -331,15 +332,14 @@ if (mcp0.digitalRead(12) == LOW) {
      delay(250);
   }
 
-  //Cut (space)
+  //Cut (enter)
 
 if (mcp0.digitalRead(13) == LOW) {
     Serial.println("Success Cut!");
-   keyCommand(0,44);
+   BT.write(0x0A);
    strip.setPixelColor(13, 255, 255, 255);
    strip.show();
      delay(250);
-   keyCommand(0,0);
 
   }
 
