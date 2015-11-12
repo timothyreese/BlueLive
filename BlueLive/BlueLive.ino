@@ -163,20 +163,20 @@ void loop() {
 
 //NeoPixel Arcade Button Colors
 
-strip.setPixelColor(0, 255, 165, 0);
-strip.setPixelColor(1, 255, 165, 0);
-strip.setPixelColor(2, 255, 165, 0);
-strip.setPixelColor(3, 255, 165, 0);
-strip.setPixelColor(4, 255, 165, 0);
-strip.setPixelColor(5, 255, 165, 0);
-strip.setPixelColor(6, 255, 0, 0);
-strip.setPixelColor(7, 255, 0, 0);
-strip.setPixelColor(8, 255, 0, 0);
-strip.setPixelColor(9, 255, 0, 0);
-strip.setPixelColor(10, 255, 0, 0);
-strip.setPixelColor(11, 255, 0, 0);
-strip.setPixelColor(12, 255, 0, 0);
-strip.setPixelColor(13, 255, 165, 0);
+strip.setPixelColor(0, 255, 0, 0);
+strip.setPixelColor(1, 255, 0, 0);
+strip.setPixelColor(2, 255, 0, 0);
+strip.setPixelColor(3, 255, 0, 0);
+strip.setPixelColor(4, 255, 0, 0);
+strip.setPixelColor(5, 255, 0, 0);
+strip.setPixelColor(6, 255, 165, 0);
+strip.setPixelColor(7, 255, 165, 0);
+strip.setPixelColor(8, 255, 165, 0);
+strip.setPixelColor(9, 255, 165, 0);
+strip.setPixelColor(10, 255, 165, 0);
+strip.setPixelColor(11, 255, 165, 0);
+strip.setPixelColor(12, 255, 165, 0);
+strip.setPixelColor(13, 255, 0, 0);
 strip.show();
 
   
